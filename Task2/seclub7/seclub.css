@@ -1,0 +1,136 @@
+.jumbotron {
+  background-color: #f0f8ff;
+}
+
+body {
+  background-color: #add8e6;
+}
+
+header {
+  background-color: #6495ed;
+  height: 160px;
+  background-image: url("selogo.jpg");
+  background-repeat: no-repeat;
+}
+
+#wrapper {
+  background-color: #f0f8ff;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 3px 3px 3px #191970;
+}
+
+nav {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+
+nav a {
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  display: block;
+}
+
+footer {
+  background-color: #d2b48c;
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 10px;
+  border-top: 2px;
+  border-top-color: #000080;
+  border-top-style: solid;
+}
+
+h1 {
+  padding-top: 45px;
+  padding-left: 220px;
+  font-size: 3em;
+}
+
+img {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.floatright {
+  float: right;
+  margin-left: 1em;
+  width: 250px;
+  height: 300px;
+}
+
+blockquote {
+  background-color: #e6e6fa;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ochartstyle {
+  position: relative;
+  left: 200px;
+  top: 10px;
+  width: 450px;
+  height: 250px;
+}
+
+#eventinfo {
+  width: 80%;
+  border: 2px solid #483d8b;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+#eventinfo th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4682b4;
+  color: white;
+}
+
+#eventinfo tr:nth-child(even) {
+  background-color: #b0e0e6;
+}
+
+h4 {
+  background-color: #87cefa;
+  font-size: 1.2em;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+form {
+  padding: 2em;
+}
+
+label {
+  float: left;
+  text-align: right;
+  font-weight: bold;
+  width: 15em;
+  padding-right: 1em;
+  display: block;
+}
+
+input,
+textarea,
+select {
+  margin-bottom: 2em;
+  display: block;
+}
+
+#newSubmit {
+  margin-left: 20em;
+}
